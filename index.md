@@ -21,4 +21,4 @@ sudo dd if=image.iso of=/dev/sdX bs=4M; sync
 ```
 
 * Boot into Linux from USB stick.
-* Use *parted* to create GPT with free space on the new bootable disk.
+* Use `parted` to create GPT with free space on the new bootable disk.
