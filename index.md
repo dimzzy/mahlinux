@@ -17,7 +17,7 @@ I decided to use Debian because it's stable and well supported.
 * Copy to USB stick using
 
 ```shell
-sudo dd if=debian-live-8.7.1-amd64-kde-desktop.iso of=/dev/sdX bs=4M; sync
+sudo dd if=image.iso of=/dev/sdX bs=4M; sync
 ```
 
 * Boot into Linux from USB stick.
