@@ -14,7 +14,7 @@ Motherboard comes with F1 version, GA website says F2b is available but it's bet
 I decided to use Debian because it's stable and well supported.
 
 * Get live image here: [Live CD](https://www.debian.org/CD/live/).
-* Copy to USB stick using
+* Copy to USB stick using (on Linux):
 
 ```shell
 sudo dd if=image.iso of=/dev/sdX bs=4M; sync
