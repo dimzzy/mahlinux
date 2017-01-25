@@ -5,3 +5,6 @@ I built a home computer using GA-Z77-HD3 motherboard, i3 CPU and five WD disks. 
 ### BIOS
 
 Motherboard comes with F1 version, GA website says F2b is available but it's beta. I was able to find F3. Here are these versions for the reference. F3 seems to be working just fine so I'm sticking with it. The update is simple: format USB stick with FAT, copy files there, start PC and hit End key or select QFlash from BIOS settings. There you can select BIOS images from USB stick and update the PC.
+
+* [F1 from the GA website](/files/Z77HD3.F1), [GA](http://www.gigabyte.us/products/product-page.aspx?pid=4408#bios)
+* [F3 from tweaktown](/files/Z77HD3.F3), [TweakTown](https://forums.tweaktown.com/gigabyte/28441-gigabyte-beta-bios.html)
