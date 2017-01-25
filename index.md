@@ -15,7 +15,10 @@ I decided to use Debian because it's stable and well supported.
 
 * Get live image here: [Live CD](https://www.debian.org/CD/live/).
 * Copy to USB stick using
+
 ```sh
 sudo dd if=debian-live-8.7.1-amd64-kde-desktop.iso of=/dev/sdX bs=4M; sync
+```
+
 * Boot into Linux from USB stick.
 * Use *parted* to create GPT with free space on the new bootable disk.
