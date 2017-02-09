@@ -51,6 +51,6 @@ exit
 Follow this article: [Cisco VPN](http://www.socsci.uci.edu/~jstern/uci_vpn_ubuntu/).
 Specifically do:
 ```shell
-sudo apt-get install lib32z1 lib32ncurses5 network-manager-openconnect remmina
+sudo apt-get install lib32z1 lib32ncurses5 libpangox-1.0 network-manager-openconnect remmina
 ```
 Remmina is my remote desktop client of choice.
