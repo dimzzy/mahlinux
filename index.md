@@ -41,3 +41,15 @@ su
 adduser dimzzy sudo
 exit
 ```
+### Various Fixes
+
+* Rename `zed.service` to `zfs-zed.service` in `/etc/systemd/system`
+* Edit `zfs-zed.service` to point to the right `zed` binary; specifically `/usr/sbin/zed`
+
+### Installing Cisco VPN
+
+Follow this article: [Cisco VPN](http://www.socsci.uci.edu/~jstern/uci_vpn_ubuntu/).
+Specifically do:
+```shell
+sudo apt-get install lib32z1 lib32ncurses5 network-manager-openconnect
+```
