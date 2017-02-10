@@ -62,6 +62,6 @@ Edit `/etc/apcupsd/apcupsd.conf` to have
 ```
 UPSCABLE usb
 UPSTYPE usb
-DEVICE /dev/usb/hiddev1-3
+DEVICE
 ```
 Flip `ISCONFIGURED` to `yes` in `/etc/default/apcupsd`
