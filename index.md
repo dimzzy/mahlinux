@@ -54,3 +54,14 @@ Specifically do:
 sudo apt-get install lib32z1 lib32ncurses5 libpangox-1.0 network-manager-openconnect remmina
 ```
 Remmina is my remote desktop client of choice.
+
+### UPS
+
+Install APC daemon using `sudo apt-get install apcupsd`
+Edit `/etc/apcupsd/apcupsd.conf` to have
+```
+UPSCABLE usb
+UPSTYPE usb
+DEVICE /dev/usb/hiddev1-3
+```
+Flip `ISCONFIGURED` to `yes` in `/etc/default/apcupsd`
