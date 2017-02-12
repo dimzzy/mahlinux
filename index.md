@@ -65,3 +65,20 @@ UPSTYPE usb
 DEVICE
 ```
 Flip `ISCONFIGURED` to `yes` in `/etc/default/apcupsd`
+
+### Samba
+
+* Install it using `sudo apt-get install samba`
+* Add myself using `smbpasswd -a dimzzy`
+* Comment out home and printer shares in `/etc/samba/smbd.conf`
+* Add these shares:
+```ini
+[Media]
+comment = Photo and video archive
+writeable = yes
+path = /pool3/media
+valid users = dimzzy
+create mask = 0664
+directory mask = 0775
+
+```
