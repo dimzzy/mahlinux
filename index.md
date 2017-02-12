@@ -77,8 +77,23 @@ Flip `ISCONFIGURED` to `yes` in `/etc/default/apcupsd`
 comment = Photo and video archive
 writeable = yes
 path = /pool3/media
-valid users = dimzzy
 create mask = 0664
 directory mask = 0775
+guest ok = yes
 
+[Movies]
+comment = Movies library
+writeable = yes
+path = /pool1/fs1
+create mask = 0664
+directory mask = 0775
+guest ok = yes
+
+[Cartoons]
+comment = Cartoons libary
+writeable = yes
+path = /pool2/fs1
+create mask = 0664
+directory mask = 0775
+guest ok = yes
 ```
